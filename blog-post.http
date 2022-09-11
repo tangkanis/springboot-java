@@ -1,0 +1,17 @@
+POST http://localhost:8888/api/addBlogPost
+Content-Type: application/json
+
+{
+  "firstName": "tang",
+  "lastName": "su"
+}
+
+###
+
+GET http://localhost:8888/api/getBlogPostList
+Content-Type: application/json
+
+###
+
+GET http://localhost:8888/api/hello
+Content-Type: application/json
